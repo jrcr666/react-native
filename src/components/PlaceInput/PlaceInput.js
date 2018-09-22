@@ -6,8 +6,7 @@ import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 const placeInput = props => (
 	<DefaultInput 
 		placeholder="Nombre del lugar"
-		onChangeText={props.onChangeText}
-		value={props.placeName}/>
+		value={props.placeName} {...props}/>
 );
 
 export default placeInput;

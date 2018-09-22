@@ -9,6 +9,9 @@ import PlaceInput from '../../components/PlaceInput/PlaceInput';
 import PickImage from '../../components/PickImage/PickImage';
 import PickLocation from '../../components/PickLocation/PickLocation';
 
+import validate from '../../utility/validation';
+
+
 class SharePlaceScreen extends Component {
 
 	static navigatorStyle = {
@@ -18,8 +21,16 @@ class SharePlaceScreen extends Component {
 	constructor(props){
 		super(props);
 		this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
-		this.state = {
-			placeName: ''
+	}
+
+	state = {
+		placeInput: {
+			value: '',
+			valid: false,
+			validation: {
+				isRequired: true
+				},
+			touched: false
 		}
 	}
 
@@ -33,17 +44,27 @@ class SharePlaceScreen extends Component {
 		}
 	}
 
+	placeChangedHandler = value => {
+		this.setState(prevState => ({
+			placeInput: {
+				...prevState.placeInput,
+				value,
+				valid: validate(value, prevState.placeInput.validation),
+				touched: true
 
-
-	placeChangedHandler = placeName => {
-		this.setState({placeName})
+			}
+		}))
 	}
 
-	placeNameChangedHandler = () => {
-		if (this.state.placeName.trim()){
-			this.setState({placeName: ''})
-			this.props.onPlaceAdded(this.state.placeName)
-		}
+	placeSubmitHandler = () => {
+		this.props.onPlaceAdded(this.state.placeInput.value);
+		this.setState(prevState => ({
+			placeInput: {
+				...prevState.placeInput,
+				value: ''
+			}		
+		}))
+
 	}
 
 	render(){
@@ -58,12 +79,16 @@ class SharePlaceScreen extends Component {
 					<PickImage />
 					<PickLocation />
 					<PlaceInput
-						placeName={this.state.placeName}
-						onChangeText={this.placeChangedHandler}/>
+						placeName={this.state.placeInput.value}
+						onChangeText={(value) => this.placeChangedHandler(value)}
+						valid={this.state.placeInput.valid}
+						touched={this.state.placeInput.touched}
+						/>
 					<View style={styles.button}>
 						<Button
+							disabled={!this.state.placeInput.valid}
 							title="Compartir!"
-							onPress={this.placeNameChangedHandler} />
+							onPress={this.placeSubmitHandler} />
 					</View>
 				</View>
 			</ScrollView>
