@@ -3,12 +3,17 @@ import {ScrollView, Dimensions, Platform, StyleSheet, View, Image, Text, Touchab
 import Icon from 'react-native-vector-icons/Ionicons';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
+import MapView from 'react-native-maps';
 
 class PlaceDetail extends Component {
 
 	state = {
 		viewMode: Dimensions.get('window').height > 500 ? 'portrait': 'landscape',
-		isSignup: false
+
+	    focusedLocation: {
+	        latitudeDelta: 0.0122,
+	        longitudeDelta: Dimensions.get('window').width / Dimensions.get('window').height * 0.0122
+	    },
 	}
 
 	constructor(props){
@@ -32,18 +37,29 @@ class PlaceDetail extends Component {
 
 	render(){
 		const container = this.state.viewMode + 'Container';
-		const imageContainer = this.state.viewMode + 'ImageContainer';
-		const detailsContainer = this.state.viewMode + 'DetailsContainer';
+		const subContainer = this.state.viewMode + 'SubContainer';
+		const location = {
+	    	...this.state.focusedLocation,
+	    	...this.props.placeSelected.location
+	    }
 
 		return (
 			<ScrollView>
 				<View style={styles[container]}>
-					<View style={styles[imageContainer]}>
+					<View style={styles[subContainer]}>
 						<Image 
 							style={styles.placeImage} 
 							source={this.props.placeSelected.image ? this.props.placeSelected.image : null}/>
+							
 					</View>
-					<View style={styles[detailsContainer]}>
+					<View style={styles[subContainer]}>
+			      		<MapView
+						initialRegion={location}
+						style={styles.map}>
+							<MapView.Marker coordinate={location}/>
+						</MapView>
+	      			</View>
+					<View style={styles[subContainer]}>
 						<Text style={styles.placeName}>{this.props.placeSelected.name}</Text>
 						<TouchableOpacity onPress={this.placeDeletedHandler}>
 							<View style={styles.deleteButton}>
@@ -79,17 +95,15 @@ const styles = StyleSheet.create({
 	deleteButton: {
 		alignItems: 'center'
 	},
-	landscapeImageContainer:{
-		width: '45%'
+	landscapeSubContainer:{
+		width: '30%'
 	},
-	portraitImageContainer:{
+	portraitSubContainer:{
 		width: '100%'
 	},
-	landscapeDetailsContainer:{
-		width: '45%'
-	},
-	portraitDetailsContainer:{
-		width: '100%'
+	map:{
+		width: '100%',
+		height: 250
 	}
 });
 

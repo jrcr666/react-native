@@ -1,7 +1,8 @@
 import * as actionTypes from '../actions/actionTypes';
 
 initialState = {
-    places: []
+    places: [],
+
 }
 
 const reducer = (state = initialState, action) => {
@@ -12,7 +13,8 @@ const reducer = (state = initialState, action) => {
                 places: state.places.concat({
                     key: (Math.random() * 1000).toString() + (Math.random() * 1000).toString(),
                     name: action.placeName,
-                    image: { uri: 'https://www.nordicvisitor.com/images/jokulsarlon-glacier-lagoon-icelanddepositphotos.jpg' }
+                    image: { uri: 'https://www.nordicvisitor.com/images/jokulsarlon-glacier-lagoon-icelanddepositphotos.jpg' },
+                    location: action.location
                 }),
             }
         case actionTypes.DELETE_PLACE:

@@ -24,13 +24,19 @@ class SharePlaceScreen extends Component {
 	}
 
 	state = {
-		placeInput: {
+		controls: {
+			placeName: {
 			value: '',
 			valid: false,
 			validation: {
 				isRequired: true
 				},
 			touched: false
+			},
+		location: {
+			value: null,
+			valid: false
+			}
 		}
 	}
 
@@ -46,25 +52,45 @@ class SharePlaceScreen extends Component {
 
 	placeChangedHandler = value => {
 		this.setState(prevState => ({
-			placeInput: {
-				...prevState.placeInput,
-				value,
-				valid: validate(value, prevState.placeInput.validation),
-				touched: true
-
+			controls: {
+				...prevState.controls,
+				placeName: {
+					...prevState.controls.placeName,
+					value,
+					valid: validate(value, prevState.controls.placeName.validation),
+					touched: true
+				}
 			}
 		}))
 	}
 
+	locationPickedHandler = location => {
+		this.setState( prevState =>({
+			controls: {
+				...prevState.controls,
+				location: {
+					...prevState.location,
+					value: location,
+					valid: true
+				}
+			}
+		}));
+	}
+
 	placeSubmitHandler = () => {
-		this.props.onPlaceAdded(this.state.placeInput.value);
+		const {placeName, location} = this.state.controls;
+		this.props.onPlaceAdded(placeName.value, location.value);
 		this.setState(prevState => ({
-			placeInput: {
-				...prevState.placeInput,
-				value: ''
+			controls: {
+				...prevState.controls,
+				placeName: {
+					...prevState.controls.placeName,
+					value: '',
+					valid: false,
+					touched: false
+				}
 			}		
 		}))
-
 	}
 
 	render(){
@@ -77,16 +103,19 @@ class SharePlaceScreen extends Component {
 						</HeadingText>
 					</MainText>
 					<PickImage />
-					<PickLocation />
+					<PickLocation onLocationPick={this.locationPickedHandler} />
 					<PlaceInput
-						placeName={this.state.placeInput.value}
+						placeName={this.state.controls.placeName.value}
 						onChangeText={(value) => this.placeChangedHandler(value)}
-						valid={this.state.placeInput.valid}
-						touched={this.state.placeInput.touched}
+						valid={this.state.controls.placeName.valid}
+						touched={this.state.controls.placeName.touched}
 						/>
 					<View style={styles.button}>
 						<Button
-							disabled={!this.state.placeInput.valid}
+							disabled={
+								!this.state.controls.placeName.valid ||
+								!this.state.controls.location.valid
+							}
 							title="Compartir!"
 							onPress={this.placeSubmitHandler} />
 					</View>
@@ -118,7 +147,7 @@ const styles = StyleSheet.create({
 })
 
 mapDispatchToProps = disatch => ({
-	onPlaceAdded: (placeName) => disatch(actions.addPlace(placeName))
+	onPlaceAdded: (placeName, location) => disatch(actions.addPlace(placeName, location))
 })
 
 export default connect(null, mapDispatchToProps)(SharePlaceScreen);
