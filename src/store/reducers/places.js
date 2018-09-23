@@ -13,7 +13,7 @@ const reducer = (state = initialState, action) => {
                 places: state.places.concat({
                     key: (Math.random() * 1000).toString() + (Math.random() * 1000).toString(),
                     name: action.placeName,
-                    image: { uri: 'https://www.nordicvisitor.com/images/jokulsarlon-glacier-lagoon-icelanddepositphotos.jpg' },
+                    image: { uri: action.image.uri },
                     location: action.location
                 }),
             }

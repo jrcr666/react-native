@@ -36,6 +36,10 @@ class SharePlaceScreen extends Component {
 		location: {
 			value: null,
 			valid: false
+			},
+		image: {
+			value: null,
+			valid: false
 			}
 		}
 	}
@@ -77,9 +81,22 @@ class SharePlaceScreen extends Component {
 		}));
 	}
 
+	imagePikedHandler = image => {
+		this.setState( prevState =>({
+			controls: {
+				...prevState.controls,
+				image: {
+					...prevState.image,
+					value: image,
+					valid: true
+				}
+			}
+		}));
+	} 
+
 	placeSubmitHandler = () => {
-		const {placeName, location} = this.state.controls;
-		this.props.onPlaceAdded(placeName.value, location.value);
+		const {placeName, location, image} = this.state.controls;
+		this.props.onPlaceAdded(placeName.value, location.value, image.value);
 		this.setState(prevState => ({
 			controls: {
 				...prevState.controls,
@@ -102,7 +119,7 @@ class SharePlaceScreen extends Component {
 							¡Comparte un lugar!
 						</HeadingText>
 					</MainText>
-					<PickImage />
+					<PickImage onImagePicked={this.imagePikedHandler} />
 					<PickLocation onLocationPick={this.locationPickedHandler} />
 					<PlaceInput
 						placeName={this.state.controls.placeName.value}
@@ -114,7 +131,8 @@ class SharePlaceScreen extends Component {
 						<Button
 							disabled={
 								!this.state.controls.placeName.valid ||
-								!this.state.controls.location.valid
+								!this.state.controls.location.valid ||
+								!this.state.controls.image.valid
 							}
 							title="Compartir!"
 							onPress={this.placeSubmitHandler} />
@@ -147,7 +165,7 @@ const styles = StyleSheet.create({
 })
 
 mapDispatchToProps = disatch => ({
-	onPlaceAdded: (placeName, location) => disatch(actions.addPlace(placeName, location))
+	onPlaceAdded: (placeName, location, image) => disatch(actions.addPlace(placeName, location, image))
 })
 
 export default connect(null, mapDispatchToProps)(SharePlaceScreen);
