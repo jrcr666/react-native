@@ -20,7 +20,7 @@ class AuthScreen extends Component {
 		controls: {
 			email: {
 				value: '',
-				valid: false,
+				valid: true,
 				validation: {
 					isEmail: true
 					},
@@ -28,7 +28,7 @@ class AuthScreen extends Component {
 				},
 			password:{
 				value: '',
-				valid: false,
+				valid: true,
 				validation: {
 					minLength: 6	
 					},
@@ -36,7 +36,7 @@ class AuthScreen extends Component {
 				},
 			confirmPassword:{
 				value: '',
-				valid: false,
+				valid: true,
 				validation: {
 					equalTo: 'password'	
 				},
