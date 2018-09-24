@@ -24,3 +24,5 @@ android/.gradle/2.14.1/taskArtifacts/cache.properties.lock
 android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin
 android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin
 android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin
+
+functions/node_modules

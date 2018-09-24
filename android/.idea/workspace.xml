@@ -2,45 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a99739-292b-4fcd-b068-3740c2ef51cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jsinspector.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jsinspector.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libcxxreact.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libdouble-conversion.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libjschelpers.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libjsinspector.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libjsinspector.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libprivatedata.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libprivatedata.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libthird-party.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libthird-party.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/libyoga.a" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Conv.o-3EAO4Y1GERAN2" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Conv.o-3EAO4Y1GERAN2" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/CxxNativeModule.o-3EY82BJK6UFE8" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/CxxNativeModule.o-3EY82BJK6UFE8" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Instance.o-34VXCSFRJM9P5" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Instance.o-34VXCSFRJM9P5" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSBigString.o-NMENHCAPLP6W" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSBigString.o-NMENHCAPLP6W" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCExecutor.o-1UJTJ0BN79HHJ" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCExecutor.o-1UJTJ0BN79HHJ" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCHelpers.o-MAZUNPS8PMDO" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCHelpers.o-MAZUNPS8PMDO" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCLegacyTracing.o-WVZLKTVG0JD6" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCLegacyTracing.o-WVZLKTVG0JD6" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCMemory.o-1AWGSLGLEPADN" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCMemory.o-1AWGSLGLEPADN" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCNativeModules.o-2S1I143NOS6ST" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCNativeModules.o-2S1I143NOS6ST" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCPerfStats.o-11ZJZPDZ0Y0X3" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCPerfStats.o-11ZJZPDZ0Y0X3" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCSamplingProfiler.o-2U5J977GUW493" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCSamplingProfiler.o-2U5J977GUW493" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCUtils.o-30K6E95RFR0ZU" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSCUtils.o-30K6E95RFR0ZU" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSIndexedRAMBundle.o-2WBUZQQ26HG83" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/JSIndexedRAMBundle.o-2WBUZQQ26HG83" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/MethodCall.o-177541RJ3AKAP" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/MethodCall.o-177541RJ3AKAP" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/ModuleRegistry.o-3DAYIVU16UGL8" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/ModuleRegistry.o-3DAYIVU16UGL8" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/NativeToJsBridge.o-OM9JVQIGHG6J" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/NativeToJsBridge.o-OM9JVQIGHG6J" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Platform.o-2QXCA2PDMGFRU" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Platform.o-2QXCA2PDMGFRU" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/RAMBundleRegistry.o-VYSID694ZUDW" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/RAMBundleRegistry.o-VYSID694ZUDW" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/SampleCxxModule.o-2WB47IWMBEEL5" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/SampleCxxModule.o-2WB47IWMBEEL5" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/StringBase.o-1ZXALQ0OTSU4K" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/StringBase.o-1ZXALQ0OTSU4K" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Value.o-E2J5XHW7EO66" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/Value.o-E2J5XHW7EO66" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/dynamic.o-2J1QDHRO42C8O" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/dynamic.o-2J1QDHRO42C8O" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/json.o-37I3ME8MEZBTH" afterPath="$PROJECT_DIR$/../ios/build/Index/DataStore/v5/units/json.o-37I3ME8MEZBTH" />
-      <change beforePath="$PROJECT_DIR$/../ios/build/info.plist" afterPath="$PROJECT_DIR$/../ios/build/info.plist" />
+      <change beforePath="$PROJECT_DIR$/../.babelrc" afterPath="$PROJECT_DIR$/../.babelrc" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change beforePath="$PROJECT_DIR$/../.watchmanconfig" afterPath="$PROJECT_DIR$/../.watchmanconfig" />
+      <change beforePath="$PROJECT_DIR$/../App.js" afterPath="$PROJECT_DIR$/../App.js" />
+      <change beforePath="$PROJECT_DIR$/../App.test.js" afterPath="$PROJECT_DIR$/../App.test.js" />
+      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/android.iml" afterPath="$PROJECT_DIR$/.idea/android.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_25.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_26.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__backport_util_concurrent_backport_util_concurrent_3_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__backport_util_concurrent_backport_util_concurrent_3_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__classworlds_classworlds_1_1_alpha_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__classworlds_classworlds_1_1_alpha_2_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_almworks_sqlite4java_sqlite4java_0_282_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_almworks_sqlite4java_sqlite4java_0_282_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_23_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_3_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_3_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aurelhubert_ahbottomnavigation_2_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aurelhubert_ahbottomnavigation_2_0_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_balysv_materialmenu_material_menu_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_balysv_materialmenu_material_menu_1_5_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_balysv_materialmenu_material_menu_toolbar_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_balysv_materialmenu_material_menu_toolbar_1_5_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fbui_textlayoutbuilder_staticlayout_proxy_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fbui_textlayoutbuilder_staticlayout_proxy_1_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fbui_textlayoutbuilder_textlayoutbuilder_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fbui_textlayoutbuilder_textlayoutbuilder_1_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_okhttp3_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_okhttp3_1_3_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_react_react_native_0_55_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_react_react_native_0_55_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_soloader_soloader_0_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_soloader_soloader_0_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_6_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_6_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ibm_icu_icu4j_53_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ibm_icu_icu4j_53_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_6_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_6_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_urlconnection_3_6_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_urlconnection_3_6_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_xstream_xstream_1_4_8_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_xstream_xstream_1_4_8_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ximpleware_vtd_xml_2_11_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ximpleware_vtd_xml_2_11_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_nekohtml_1_9_6_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_nekohtml_1_9_6_2_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_xercesMinimal_1_9_6_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__nekohtml_xercesMinimal_1_9_6_2_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_8_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_8_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_8_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_8_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_ant_tasks_2_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_ant_tasks_2_1_3_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_manager_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_artifact_manager_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_error_diagnostics_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_error_diagnostics_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_model_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_plugin_registry_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_plugin_registry_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_profile_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_profile_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_project_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_project_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_repository_metadata_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_repository_metadata_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_settings_2_2_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_maven_settings_2_2_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_file_1_0_beta_6_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_file_1_0_beta_6_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_2_5_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_2_5_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk16_1_46_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk16_1_46_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_interpolation_1_11_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_interpolation_1_11_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_utils_1_5_15_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_utils_1_5_15_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_5_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_5_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_5_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_util_5_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_3_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_3_1_4_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_annotations_3_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_annotations_3_1_4_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_resources_3_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_resources_3_1_4_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_utils_3_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_robolectric_utils_3_1_4_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_shadows_core_v23_3_1_4_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_robolectric_shadows_core_v23_3_1_4_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webkit_android_jsc_r174650.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webkit_android_jsc_r174650.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlpull_xmlpull_1_1_3_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xmlpull_xmlpull_1_1_3_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_min_1_1_4c_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_xpp3_min_1_1_4c_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/BUCK" afterPath="$PROJECT_DIR$/app/BUCK" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rncourse/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rncourse/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/rncourse/MainApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rncourse/MainApplication.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change beforePath="$PROJECT_DIR$/keystores/BUCK" afterPath="$PROJECT_DIR$/keystores/BUCK" />
+      <change beforePath="$PROJECT_DIR$/keystores/debug.keystore.properties" afterPath="$PROJECT_DIR$/keystores/debug.keystore.properties" />
+      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change beforePath="$PROJECT_DIR$/rncourse.iml" afterPath="$PROJECT_DIR$/rncourse.iml" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/../app.json" afterPath="$PROJECT_DIR$/../app.json" />
+      <change beforePath="$PROJECT_DIR$/../index.ios.js" afterPath="$PROJECT_DIR$/../index.ios.js" />
+      <change beforePath="$PROJECT_DIR$/../index.js" afterPath="$PROJECT_DIR$/../index.js" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse-tvOS/Info.plist" afterPath="$PROJECT_DIR$/../ios/rncourse-tvOS/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse-tvOSTests/Info.plist" afterPath="$PROJECT_DIR$/../ios/rncourse-tvOSTests/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/xcuserdata/juan.cobo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/project.xcworkspace/xcuserdata/juan.cobo.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcshareddata/xcschemes/rncourse-tvOS.xcscheme" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcshareddata/xcschemes/rncourse-tvOS.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcshareddata/xcschemes/rncourse.xcscheme" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcshareddata/xcschemes/rncourse.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcuserdata/juan.cobo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/../ios/rncourse.xcodeproj/xcuserdata/juan.cobo.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/AppDelegate.h" afterPath="$PROJECT_DIR$/../ios/rncourse/AppDelegate.h" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/AppDelegate.m" afterPath="$PROJECT_DIR$/../ios/rncourse/AppDelegate.m" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/Base.lproj/LaunchScreen.xib" afterPath="$PROJECT_DIR$/../ios/rncourse/Base.lproj/LaunchScreen.xib" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/../ios/rncourse/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/Images.xcassets/Contents.json" afterPath="$PROJECT_DIR$/../ios/rncourse/Images.xcassets/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourse/main.m" afterPath="$PROJECT_DIR$/../ios/rncourse/main.m" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourseTests/Info.plist" afterPath="$PROJECT_DIR$/../ios/rncourseTests/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/../ios/rncourseTests/rncourseTests.m" afterPath="$PROJECT_DIR$/../ios/rncourseTests/rncourseTests.m" />
+      <change beforePath="$PROJECT_DIR$/../keys.txt" afterPath="$PROJECT_DIR$/../keys.txt" />
+      <change beforePath="$PROJECT_DIR$/../src/components/ListItem/ListItem.js" afterPath="$PROJECT_DIR$/../src/components/ListItem/ListItem.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PickImage/PickImage.js" afterPath="$PROJECT_DIR$/../src/components/PickImage/PickImage.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PickLocation/PickLocation.js" afterPath="$PROJECT_DIR$/../src/components/PickLocation/PickLocation.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PlaceInput/PlaceInput.js" afterPath="$PROJECT_DIR$/../src/components/PlaceInput/PlaceInput.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PlaceList/PlaceList.js" afterPath="$PROJECT_DIR$/../src/components/PlaceList/PlaceList.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/ButtonWithBackground/ButtonWithBackground.js" afterPath="$PROJECT_DIR$/../src/components/UI/ButtonWithBackground/ButtonWithBackground.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/DefaultInput/DefaultInput.js" afterPath="$PROJECT_DIR$/../src/components/UI/DefaultInput/DefaultInput.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/HeadingText/HeadingText.js" afterPath="$PROJECT_DIR$/../src/components/UI/HeadingText/HeadingText.js" />
+      <change beforePath="$PROJECT_DIR$/../src/components/UI/MainText/MainText.js" afterPath="$PROJECT_DIR$/../src/components/UI/MainText/MainText.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/Auth/Auth.js" afterPath="$PROJECT_DIR$/../src/screens/Auth/Auth.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/FindPlace/FindPlace.js" afterPath="$PROJECT_DIR$/../src/screens/FindPlace/FindPlace.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/MainTabs/startMainTabs.js" afterPath="$PROJECT_DIR$/../src/screens/MainTabs/startMainTabs.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/PlaceDetail/PlaceDetail.js" afterPath="$PROJECT_DIR$/../src/screens/PlaceDetail/PlaceDetail.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/SharePlace/SharePlace.js" afterPath="$PROJECT_DIR$/../src/screens/SharePlace/SharePlace.js" />
+      <change beforePath="$PROJECT_DIR$/../src/screens/SideDrawer/SideDrawer.js" afterPath="$PROJECT_DIR$/../src/screens/SideDrawer/SideDrawer.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/actions/actionTypes.js" afterPath="$PROJECT_DIR$/../src/store/actions/actionTypes.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/actions/auth.js" afterPath="$PROJECT_DIR$/../src/store/actions/auth.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/actions/index.js" afterPath="$PROJECT_DIR$/../src/store/actions/index.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/actions/places.js" afterPath="$PROJECT_DIR$/../src/store/actions/places.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/configureStore.js" afterPath="$PROJECT_DIR$/../src/store/configureStore.js" />
+      <change beforePath="$PROJECT_DIR$/../src/store/reducers/places.js" afterPath="$PROJECT_DIR$/../src/store/reducers/places.js" />
+      <change beforePath="$PROJECT_DIR$/../src/utility/validation.js" afterPath="$PROJECT_DIR$/../src/utility/validation.js" />
+      <change beforePath="$PROJECT_DIR$/../validation.js" afterPath="$PROJECT_DIR$/../validation.js" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" afterPath="$PROJECT_DIR$/../yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -3938,10 +4065,10 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4066,35 +4193,35 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.006437768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Button, StyleSheet, ScrollView, Image } from 'react-native';
+import { View, Text, Button, StyleSheet, ScrollView, Image, KeyboardAvoidingView, Keyboard } from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
@@ -113,7 +113,7 @@ class SharePlaceScreen extends Component {
 	render(){
 		return (
 			<ScrollView>
-				<View style={styles.container}>
+				<KeyboardAvoidingView style={styles.container} behavior="padding">
 					<MainText>
 						<HeadingText>
 							¡Comparte un lugar!
@@ -137,7 +137,8 @@ class SharePlaceScreen extends Component {
 							title="Compartir!"
 							onPress={this.placeSubmitHandler} />
 					</View>
-				</View>
+					<View style={{height: 500}}></View>
+				</KeyboardAvoidingView>
 			</ScrollView>
 		)
 	}
