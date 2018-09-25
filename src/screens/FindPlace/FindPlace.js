@@ -21,6 +21,10 @@ class FindPlaceScreen extends Component {
 		this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
 	}
 
+	componentDidMount() {
+		this.props.onGetPlaces()
+	}
+
 	onNavigatorEvent = event => {
 		if (event.type === 'NavBarButtonPress') {
 			if (event.id === 'sideDrawerToggle') {
@@ -61,6 +65,7 @@ class FindPlaceScreen extends Component {
 			}
 		})
 	}
+
 
 	render(){
 		let content = (
@@ -124,4 +129,8 @@ const mapStateToProps = state => ({
 	places: state.places.places
 })
 
-export default connect(mapStateToProps)(FindPlaceScreen);
+const mapDispatchToProps = disatch => ({
+	onGetPlaces: () => disatch(actions.getPlaces())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(FindPlaceScreen);

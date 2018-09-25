@@ -7,7 +7,7 @@ initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case actionTypes.ADD_PLACE:
+        /*case actionTypes.ADD_PLACE:
             return {
                 ...state,
                 places: state.places.concat({
@@ -17,11 +17,20 @@ const reducer = (state = initialState, action) => {
                     location: action.location
                 }),
             }
-        case actionTypes.DELETE_PLACE:
+            break;*/
+        case actionTypes.SET_PLACES:
+            return {
+                ...state,
+                places: action.places
+            }
+            break;
+
+        case actionTypes.REMOVE_PLACE:
             return {
                 ...state,
                 places: state.places.filter(place => place.key !== action.key)
             }
+            break;
         default:
             return state;
     }

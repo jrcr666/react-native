@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Button, StyleSheet, ScrollView, Image, KeyboardAvoidingView, Keyboard } from 'react-native';
+import { View, Text, Button, StyleSheet, ScrollView, Image, KeyboardAvoidingView, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
@@ -111,6 +111,22 @@ class SharePlaceScreen extends Component {
 	}
 
 	render(){
+		let submitButton = (
+			<Button
+				disabled={
+					!this.state.controls.placeName.valid ||
+					!this.state.controls.location.valid ||
+					!this.state.controls.image.valid
+				}
+				title="Compartir!"
+				onPress={this.placeSubmitHandler} />
+		);
+
+		if (this.props.isLoading) {
+			submitButton = <ActivityIndicator />;
+		}
+
+
 		return (
 			<ScrollView>
 				<KeyboardAvoidingView style={styles.container} behavior="padding">
@@ -128,14 +144,7 @@ class SharePlaceScreen extends Component {
 						touched={this.state.controls.placeName.touched}
 						/>
 					<View style={styles.button}>
-						<Button
-							disabled={
-								!this.state.controls.placeName.valid ||
-								!this.state.controls.location.valid ||
-								!this.state.controls.image.valid
-							}
-							title="Compartir!"
-							onPress={this.placeSubmitHandler} />
+						{submitButton}
 					</View>
 					<View style={{height: 500}}></View>
 				</KeyboardAvoidingView>
@@ -165,8 +174,13 @@ const styles = StyleSheet.create({
 	}
 })
 
-mapDispatchToProps = disatch => ({
+const mapStateToProps = state => ({
+	isLoading: state.ui.isLoading
+})
+
+
+const mapDispatchToProps = disatch => ({
 	onPlaceAdded: (placeName, location, image) => disatch(actions.addPlace(placeName, location, image))
 })
 
-export default connect(null, mapDispatchToProps)(SharePlaceScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(SharePlaceScreen);
