@@ -7,17 +7,19 @@ initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        /*case actionTypes.ADD_PLACE:
+        case actionTypes.ADD_PLACE:
             return {
                 ...state,
                 places: state.places.concat({
-                    key: (Math.random() * 1000).toString() + (Math.random() * 1000).toString(),
-                    name: action.placeName,
-                    image: { uri: action.image.uri },
-                    location: action.location
+                    key: action.place.key,
+                    name: action.place.placeName,
+                    image: {
+                        uri: action.place.image
+                    },
+                    location: action.place.location
                 }),
             }
-            break;*/
+            break;
         case actionTypes.SET_PLACES:
             return {
                 ...state,
