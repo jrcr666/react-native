@@ -9,23 +9,25 @@ export const addPlace = (placeName, location, image) =>
         dispatch(authActions.authGetToken())
             .then(token => {
                 authToken = token;
-                console.warn(authToken);
-                fetch('https://us-central1-rn-course-1537651935516.cloudfunctions.net/storeImage', {
+                return fetch('https://us-central1-rn-course-1537651935516.cloudfunctions.net/storeImage', {
                     method: 'POST',
                     body: JSON.stringify({
                         image: image.base64
                     }),
                     headers: {
-                        'Authorization': `Bearer ${authToken}`
+                        'Authorization': 'Bearer ' + authToken
                     }
-                })
+                });
             })
             .catch(() => {
                 alert('No hay un token válido');
                 dispatch(uiActions.uiStopLoading());
             })
-            .then(response => response.json())
+            .then(response => {
+                return response.json();
+            })
             .then(imageCreated => {
+            	if (imageCreated.error) throw new Error('Hubo un problema al subir la imagen');
                 const placeData = {
                     name: placeName,
                     location,
@@ -38,6 +40,7 @@ export const addPlace = (placeName, location, image) =>
                     })
                     .then(response => response.json())
                     .then(place => {
+                        console.log('place', place.name);
                         dispatch(setPlace({
                             ...placeData,
                             key: place.name
@@ -45,14 +48,14 @@ export const addPlace = (placeName, location, image) =>
                         dispatch(uiActions.uiStopLoading())
                     })
                     .catch(error => {
-                        console.warn('error', error);
-                        alert('Algo fue mal al añadir, por favor, prueba de nuevo!')
+                        console.log('error', error);
+                        alert('Algo fue mal, por favor, prueba de nuevo!')
                         dispatch(uiActions.uiStopLoading())
                     });
             })
             .catch(error => {
-                console.warn('error', error);
-                alert('Algo fue mal al subir la imagen, por favor, prueba de nuevo!')
+                console.log('error', error);
+                alert('Algo fue mal, por favor, prueba de nuevo!')
                 dispatch(uiActions.uiStopLoading())
             });
     }
@@ -79,7 +82,7 @@ export const getPlaces = () => {
                 dispatch(setPlaces(places_));
             })
             .catch(error => {
-                console.warn('error', error);
+                console.log('error', error);
                 alert('Algo fue mal, por favor, prueba de nuevo!')
                 dispatch(uiActions.uiStopLoading())
             });
@@ -113,7 +116,7 @@ export const deletePlace = (key) =>
     .catch(() => alert('No hay un token válido'))
     .then(response => response.json())
     .catch(error => {
-        console.warn('error', error);
+        console.log('error', error);
         alert('Algo fue mal, por favor, prueba de nuevo!')
     })
     .then(json => {

@@ -12,7 +12,7 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 places: state.places.concat({
                     key: action.place.key,
-                    name: action.place.placeName,
+                    name: action.place.name,
                     image: {
                         uri: action.place.image
                     },
