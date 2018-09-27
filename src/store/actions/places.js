@@ -24,6 +24,7 @@ export const addPlace = (placeName, location, image) =>
                 dispatch(uiActions.uiStopLoading());
             })
             .then(response => {
+            	if (!response) return;
                 return response.json();
             })
             .then(imageCreated => {

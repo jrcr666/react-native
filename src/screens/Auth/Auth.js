@@ -62,6 +62,10 @@ class AuthScreen extends Component {
         Dimensions.removeEventListener('change', this.updateStyles);
     }
 
+    componentDidMount() {
+		this.props.onAutoAuth();    
+	}
+
     updateStyles = (dims) => {
         this.setState({
             viewMode: dims.window.height > 500 ? 'portrait' : 'landscape'
@@ -230,12 +234,12 @@ const styles = StyleSheet.create({
 });
 
 mapStateToProps = state => ({
-	authData: state.auth.authData,
 	isLoading: state.ui.isLoading
 })
 
 mapDispatchToProps = disatch => ({
-	onLogin: (authData, authMode) => disatch(actions.tryAuth(authData, authMode))
+	onLogin: (authData, authMode) => disatch(actions.tryAuth(authData, authMode)),
+	onAutoAuth: () => disatch(actions.autoAuth())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(AuthScreen);

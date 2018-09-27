@@ -22,7 +22,7 @@ class FindPlaceScreen extends Component {
 	}
 
 	componentDidMount() {
-		this.props.onGetPlaces(this.props.idToken);
+		this.props.onGetPlaces();
 	}
 
 	onNavigatorEvent = event => {
@@ -126,12 +126,11 @@ const styles = StyleSheet.create({
 })
 
 const mapStateToProps = state => ({
-	places: state.places.places,
-	idToken: state.auth.authData.idToken
+	places: state.places.places
 })
 
 const mapDispatchToProps = disatch => ({
-	onGetPlaces: (idToken) => disatch(actions.getPlaces(idToken))
+	onGetPlaces: () => disatch(actions.getPlaces())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(FindPlaceScreen);

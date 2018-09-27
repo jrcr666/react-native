@@ -1,8 +1,9 @@
 import * as actionTypes from '../actions/actionTypes';
 
 initialState = {
-    authData: null,
-
+    token: null,
+    expiryDate: null,
+    refreshToken: null
 }
 
 const reducer = (state = initialState, action) => {
@@ -10,8 +11,20 @@ const reducer = (state = initialState, action) => {
         case actionTypes.AUTH_SUCCESS:
             return {
                 ...state,
-                authData: action.authData
+                token: action.token,
+                expiryDate: action.expiryDate,
+                refreshToken: action.refreshToken
             }
+            break;
+
+        case actionTypes.AUTH_REMOVE_TOKEN:
+            return {
+                ...state,
+                token: null,
+                expiryDate: null,
+                refreshToken: null
+            }
+            break;
         default:
             return state;
     }
