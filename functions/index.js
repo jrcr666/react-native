@@ -3,8 +3,8 @@ const admin = require('firebase-admin');
 const cors = require('cors')({ origin: true });
 const fs = require('fs');
 const UUID = require('uuid-v4');
-const os = require("os");
-const path = require("path");
+const os = require('os');
+const path = require('path');
 
 const gcconfig = {
     projectId: 'rn-course-1537651935516',
@@ -33,7 +33,7 @@ exports.storeImage = functions.https.onRequest((request, response) => {
             .then(decodedToken => {
                 const body = JSON.parse(request.body);
 
-                fs.writeFileSync(path.join(os.tmpdir(), "uploaded-image.jpg"), body.image, "base64", err => {
+                fs.writeFileSync(path.join(os.tmpdir(), 'uploaded-image.jpg'), body.image, 'base64', err => {
                     console.log(err);
                     return response.status(500).json({ error: err });
                 });
@@ -41,12 +41,12 @@ exports.storeImage = functions.https.onRequest((request, response) => {
                 const uuid = UUID();
 
                 return bucket.upload(
-                    "/tmp/uploaded-image.jpg", {
-                        uploadType: "media",
-                        destination: "/places/" + uuid + ".jpg",
+                    '/tmp/uploaded-image.jpg', {
+                        uploadType: 'media',
+                        destination: '/places/' + uuid + '.jpg',
                         metadata: {
                             metadata: {
-                                contentType: "image/jpeg",
+                                contentType: 'image/jpeg',
                                 firebaseStorageDownloadTokens: uuid
                             }
                         }
@@ -54,12 +54,13 @@ exports.storeImage = functions.https.onRequest((request, response) => {
                     (err, file) => {
                         if (!err) {
                             return response.status(201).json({
-                                imageUrl: "https://firebasestorage.googleapis.com/v0/b/" +
+                                imageUrl: 'https://firebasestorage.googleapis.com/v0/b/' +
                                     bucket.name +
-                                    "/o/" +
+                                    '/o/' +
                                     encodeURIComponent(file.name) +
-                                    "?alt=media&token=" +
-                                    uuid
+                                    '?alt=media&token=' +
+                                    uuid,
+                                imagePath: '/places/' + uuid + '.jpg'
                             });
                         } else {
                             console.log(err);
@@ -74,3 +75,11 @@ exports.storeImage = functions.https.onRequest((request, response) => {
             })
     });
 });
+
+exports.deleteImage = functions.database
+    .ref('/places/{placeId}')
+    .onDelete(snapshot => {
+        const bucket = gcs.bucket('rn-course-1537651935516.appspot.com');
+
+        return bucket.file(snapshot.val().imagePath).delete();
+    })

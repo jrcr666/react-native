@@ -44,7 +44,46 @@ class SharePlaceScreen extends Component {
 		}
 	}
 
+	componentWillMount = () => {
+		this.reset();
+	}
+
+	componentDidUpdate(){
+		if (this.props.placeAdded) {
+			this.props.navigator.switchToTab({
+				tabIndex: 0
+			})
+		}
+	}
+
+	reset = () => {
+	    this.setState({
+	        controls: {
+	            placeName: {
+	                value: '',
+	                valid: false,
+	                validation: {
+	                    isRequired: true
+	                },
+	                touched: false
+	            },
+	            location: {
+	                value: null,
+	                valid: false
+	            },
+	            image: {
+	                value: null,
+	                valid: false
+	            }
+	        }
+	    });
+	}
 	onNavigatorEvent = event => {
+		if (event.type === 'ScreenChangedEvent') {
+			if (event.id === 'willAppear') {
+				this.props.onStartAddPlace();
+			}
+		}
 		if (event.type === 'NavBarButtonPress') {
 			if (event.id === 'sideDrawerToggle') {
 				this.props.navigator.toggleDrawer({
@@ -97,17 +136,10 @@ class SharePlaceScreen extends Component {
 	placeSubmitHandler = () => {
 		const {placeName, location, image} = this.state.controls;
 		this.props.onPlaceAdded(placeName.value, location.value, image.value);
-		this.setState(prevState => ({
-			controls: {
-				...prevState.controls,
-				placeName: {
-					...prevState.controls.placeName,
-					value: '',
-					valid: false,
-					touched: false
-				}
-			}		
-		}))
+
+		this.reset();
+		this.imagePicker.reset();
+		this.pickLocation.reset();
 	}
 
 	render(){
@@ -135,8 +167,10 @@ class SharePlaceScreen extends Component {
 							¡Comparte un lugar!
 						</HeadingText>
 					</MainText>
-					<PickImage onImagePicked={this.imagePikedHandler} />
-					<PickLocation onLocationPick={this.locationPickedHandler} />
+					<PickImage 
+						onImagePicked={this.imagePikedHandler}
+						ref={ref => this.imagePicker = ref}/>
+					<PickLocation ref={ref => this.pickLocation = ref} onLocationPick={this.locationPickedHandler} />
 					<PlaceInput
 						placeName={this.state.controls.placeName.value}
 						onChangeText={(value) => this.placeChangedHandler(value)}
@@ -175,12 +209,15 @@ const styles = StyleSheet.create({
 })
 
 const mapStateToProps = state => ({
-	isLoading: state.ui.isLoading
+	isLoading: state.ui.isLoading,
+	placeAdded: state.places.placeAdded
 })
 
 
 const mapDispatchToProps = disatch => ({
-	onPlaceAdded: (placeName, location, image) => disatch(actions.addPlace(placeName, location, image))
+	onPlaceAdded: (placeName, location, image) => disatch(actions.addPlace(placeName, location, image)),
+	onStartAddPlace: () => disatch(actions.startAddPlace())
+
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(SharePlaceScreen);

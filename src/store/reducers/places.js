@@ -2,7 +2,7 @@ import * as actionTypes from '../actions/actionTypes';
 
 initialState = {
     places: [],
-
+    placeAdded: false
 }
 
 const reducer = (state = initialState, action) => {
@@ -18,8 +18,15 @@ const reducer = (state = initialState, action) => {
                     },
                     location: action.place.location
                 }),
+                placeAdded: true
             }
             break;
+        case actionTypes.START_ADD_PLACE:
+            return {
+                ...state,
+                placeAdded: false
+            }
+        break;
         case actionTypes.SET_PLACES:
             return {
                 ...state,

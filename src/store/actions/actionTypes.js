@@ -1,4 +1,5 @@
 export const ADD_PLACE = 'ADD_PLACE';
+export const START_ADD_PLACE = 'START_ADD_PLACE';
 export const REMOVE_PLACE = 'REMOVE_PLACE';
 export const SET_PLACES = 'SET_PLACES';
 

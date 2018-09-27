@@ -2,6 +2,10 @@ import * as actionTypes from '../actions/actionTypes';
 import * as uiActions from './ui';
 import * as authActions from './auth';
 
+export const startAddPlace = () => ({
+    type: actionTypes.START_ADD_PLACE    
+})
+
 export const addPlace = (placeName, location, image) =>
     dispatch => {
         let authToken;
@@ -32,7 +36,8 @@ export const addPlace = (placeName, location, image) =>
                 const placeData = {
                     name: placeName,
                     location,
-                    image: imageCreated.imageUrl
+                    image: imageCreated.imageUrl,
+                    imagePath: imageCreated.imagePath
                 };
 
                 fetch('https://rn-course-1537651935516.firebaseio.com/places.json?auth=' + authToken, {

@@ -5,55 +5,60 @@ import MapView from 'react-native-maps';
 
 class PickLocation extends Component {
 
-  state = {
-    focusedLocation: {
-        latitude: 38.0143112,
-        longitude: -3.3749966,
-        latitudeDelta: 0.0122,
-        longitudeDelta: Dimensions.get('window').width / Dimensions.get('window').height * 0.0122
-    },
-    locationChosen: false
+  componentWillMount = () => {
+      this.reset();
+  }
+
+  reset = () => {
+      this.setState({
+          focusedLocation: {
+              latitude: 38.0143112,
+              longitude: -3.3749966,
+              latitudeDelta: 0.0122,
+              longitudeDelta: Dimensions.get('window').width / Dimensions.get('window').height * 0.0122
+          },
+          locationChosen: false
+      })
   }
 
   pickLocationHandler = event => {
-    const coords = event.nativeEvent.coordinate;
-    this.map.animateToRegion({
-      ...this.state.focusedLocation,
-      latitude: coords.latitude,
-      longitude: coords.longitude
-    })
-    this.setState(prevState => ({
-      focusedLocation: {
-        ...prevState.focusedLocation,
-        latitude: coords.latitude,
-        longitude: coords.longitude
-      },
-      locationChosen: true
-    }));
-    this.props.onLocationPick({
-      latitude: coords.latitude,
-      longitude: coords.longitude
-    });
+      const coords = event.nativeEvent.coordinate;
+      this.map.animateToRegion({
+          ...this.state.focusedLocation,
+          latitude: coords.latitude,
+          longitude: coords.longitude
+      })
+      this.setState(prevState => ({
+          focusedLocation: {
+              ...prevState.focusedLocation,
+              latitude: coords.latitude,
+              longitude: coords.longitude
+          },
+          locationChosen: true
+      }));
+      this.props.onLocationPick({
+          latitude: coords.latitude,
+          longitude: coords.longitude
+      });
   }
 
-  getLocationHandler  = () => {
-    navigator.geolocation.getCurrentPosition(({coords}) => {
-      const coordsEvent = {
-        nativeEvent: {
-          coordinate: {
-            latitude: coords.latitude,
-            longitude: coords.longitude
-          }
-        }
-      };
-      this.pickLocationHandler(coordsEvent);
-    },
-    err => {
-      console.warn(err);
-      alert('No ha funcionado la localización automática')
-    });
+  getLocationHandler = () => {
+      navigator.geolocation.getCurrentPosition(({ coords }) => {
+              const coordsEvent = {
+                  nativeEvent: {
+                      coordinate: {
+                          latitude: coords.latitude,
+                          longitude: coords.longitude
+                      }
+                  }
+              };
+              this.pickLocationHandler(coordsEvent);
+          },
+          err => {
+              console.warn(err);
+              alert('No ha funcionado la localización automática')
+          });
   }
-
   render(){
     let marker = null;
 
@@ -67,6 +72,7 @@ class PickLocation extends Component {
             ref={ref => this.map = ref}
             onPress={this.pickLocationHandler}
             initialRegion={this.state.focusedLocation}
+            region={!this.state.location && this.state.focusedLocation}
             style={styles.map}>
               {marker}
             </MapView>
